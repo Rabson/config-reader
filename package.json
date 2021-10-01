@@ -1,0 +1,19 @@
+{
+  "name": "config-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "run": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "loadConfig": "./bin/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "yargs": "13.2"
+  }
+}
